@@ -98,5 +98,9 @@ namespace CifradoE2E_UCN
             return datosByte;
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

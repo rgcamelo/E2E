@@ -100,6 +100,7 @@
             this.label4.Size = new System.Drawing.Size(241, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "Representación de clave pública del otro extremo";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtClavePublicaOtroExtremo
             // 
@@ -145,7 +146,7 @@
             this.Controls.Add(this.txtMensajeACifrar);
             this.Controls.Add(this.txtClavePublicaEsteExtremo);
             this.Name = "Form1";
-            this.Text = "Prueba de concepto E2E - by Edwin Gómez";
+            this.Text = "Prueba de concepto E2E ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
